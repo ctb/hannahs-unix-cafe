@@ -12,7 +12,6 @@ knitr::opts_chunk$set(echo = TRUE, fig.cap="figure", message = FALSE, purl = FAL
 ```
 
 ## Tutorial
------------
 
 > ### Learning Objectives
 > #### Unix Learning Goals
@@ -28,32 +27,7 @@ knitr::opts_chunk$set(echo = TRUE, fig.cap="figure", message = FALSE, purl = FAL
 
 ------------
 
-### Get started
-
-Today we're going to get familiar with the RStudio interface and the unix shell.
-
-Let's start by opening RStudio.
-
-
-### R Studio
-
-When you first open RStudio, you'll notice it's divided into several panels, each serving a distinct purpose.
-
-1. **Console Panel**: This is where R code is executed. You can type commands directly here or run code from a script. It's like a direct line of communication with R.
-
-2. **Source Panel**: Here, you write and edit files (R scripts, R markdowns, shell scripts). This panel supports features like syntax highlighting and tab-completion to make writing R code easier.
-
-3. **Environment/History Panel**: The Environment tab displays variables created during your R session, along with their values and types. The History tab keeps a log of all commands you've run, allowing you to revisit and reuse them.
-
-4. **Files/Plots/Packages/Help/Viewer Panel**: This multifunctional panel has tabs for:
-   - **Files**: Browse, view, and manage files in your working directory.
-   - **Plots**: View graphs and charts you generate with your code.
-   - **Packages**: Install, load, and manage R packages.
-   - **Help**: Access R documentation and help files.
-   - **Viewer**: Display web content or visualizations.
-
-
-#### Practice: Open the tutorial.Rmd file
+#### Open the tutorial.Rmd file
 
 Discussion questions:
 - What pane in R studio did this file open in?  Why?
@@ -99,7 +73,7 @@ We should note that _folders_ are called **directories** at the command line. Fo
 
 Go click on the terminal "app" to get started. 
 
-When we open up terminal in binder we will see a a line of text. This is a **prompt statement**. It can tell us useful things such as the name of the directory we are currently in, our username, or what computer we are currently running terminal on. 
+When we open up the terminal we will see a a line of text. This is a **prompt statement**. It can tell us useful things such as the name of the directory we are currently in, our username, or what computer we are currently running terminal on. 
 
 However, the prompt statement that pops up is quite long, you can customize it to read `$ ` it by running:
 ```
@@ -122,7 +96,7 @@ ls
 
 This command prints out a list of files and directories that are located in our current working directory. 
 
-Now, if we look at the contents of our current directory we have a few files, and a folder called `hannahs_unix_cafe`, @@
+Now, if we look at the contents of our current directory we have a few files, and a folder called `hannahs_unix_cafe`.
 
 To switch the directory we are located in, we need to change directories using the `cd` command. Let's move into the `hannahs_unix_cafe` directory. 
 

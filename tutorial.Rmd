@@ -299,7 +299,6 @@ you can visualize this with the tree function:
 cd -
 tree -L 6
 ```
-@@ tree
 
 This nicely hints at the power of the shell - you can do certain things (in this case, create a nested hierarchy of directories) much more easily in the shell. But that power cuts both ways - you can also mess things up more easily in the shell!
 

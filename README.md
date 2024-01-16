@@ -1,5 +1,7 @@
 # Hannah's UNIX Cafe
 
+Author: Hannah Houts, @hehouts, UC Davis.
+
 ## Getting started
 
 Use this to get familiar with the RStudio interface and the unix shell.
